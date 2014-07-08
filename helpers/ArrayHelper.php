@@ -15,7 +15,7 @@ class ArrayHelper
     }
 
     /**
-     * Fill array element with provided value and path
+     * Fill array element with provided value by given path
      * @param array $data Initial array
      * @param array $path Keys array which transforms to path
      * For example, [1, 2, 3] transforms to [1][$childrenNodeName][2][$childrenNodeName][3]
